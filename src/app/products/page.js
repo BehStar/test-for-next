@@ -1,3 +1,4 @@
+"use server";
 const Products = async () => {
   let products = [];
   try {
