@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import connectDB from "@utils/connectDB";
-import Product from "@models/Product";
+import connectDB from "../../../components/connectDB";
+import Product from "../../../components/Product";
 
 // گرفتن تمام محصولات
 export async function GET(req) {
